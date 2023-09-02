@@ -1,4 +1,4 @@
-console.log("Welcome to spotify");
+//console.log("Welcome to spotify");
 
 //Initialize the variables
 let songIndex = 0;
@@ -31,14 +31,14 @@ songItems.forEach((element,i) => {
 //Handle play/pause click
 masterPlay.addEventListener('click',()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
-        console.log('check')
+       // console.log('check')
         audioElement.play();
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
         gif.style.opacity=1;
     }
     else{
-        console.log('check2')
+        //console.log('check2')
         audioElement.pause();
           masterPlay.classList.remove('fa-pause-circle');
           masterPlay.classList.add('fa-play-circle');
@@ -47,10 +47,10 @@ masterPlay.addEventListener('click',()=>{
 })
 //Listen to Events 
 audioElement.addEventListener('timeupdate',()=>{
-    console.log('timeupdate');
+   // console.log('timeupdate');
     //update Seekbar
     progress= parseInt((audioElement.currentTime/audioElement.duration)*100);
-    console.log(progress);
+   // console.log(progress);
     myProgressBar.value=progress;
 })
 
