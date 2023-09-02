@@ -1,7 +1,8 @@
 # SPOTIFY-CLONE
 # Simple Music Player Web App
-LIVE @ https://nan-spotify-clone.netlify.app/
-This is a simple music player web app created using HTML, CSS, and JavaScript. It allows users to play and manage a list of predefined songs.
+#LIVE @ https://nan-spotify-clone.netlify.app/
+
+#This is a simple music player web app created using HTML, CSS, and JavaScript. It allows users to play and manage a list of predefined songs.
 
 ## Features
 
