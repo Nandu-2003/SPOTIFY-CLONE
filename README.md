@@ -20,4 +20,4 @@ This is a simple music player web app created using HTML, CSS, and JavaScript. I
 
 1. Clone this repository to your local machine:
 
-git clone <URL>
+git clone https://github.com/Nandu-2003/SPOTIFY-CLONE.git
