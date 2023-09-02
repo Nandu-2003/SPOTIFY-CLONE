@@ -11,13 +11,13 @@ let songItems=Array.from(document.getElementsByClassName("songItem"));
 
 
 let songs=[
-    {songName:"Believer",filePath:"songs/1.mp3",coverPath:"1image.jpg"},
-    {songName:"one kiss",filePath:"songs/2.mp3",coverPath:"2IMAGE.jpg"},
-    {songName:"Stay",filePath:"songs/3.mp3",coverPath:"3image.jpg"},
-    {songName:"Animals",filePath:"songs/4.mp3",coverPath:"4image.jpg"},
-    {songName:"Taki-Taki",filePath:"songs/5.mp3",coverPath:"5image.jpg"},
-    {songName:"Blinding Lights",filePath:"songs/6.mp3",coverPath:"6image.jpg"},
-    {songName:"Levitating",filePath:"songs/7.mp3",coverPath:"7image.jpg"},
+    {songName:"Believer",filePath:"songs/1.mp3",coverPath:"images/1image.jpg"},
+    {songName:"one kiss",filePath:"songs/2.mp3",coverPath:"images/2image.jpg"},
+    {songName:"Stay",filePath:"songs/3.mp3",coverPath:"images/3image.jpg"},
+    {songName:"Animals",filePath:"songs/4.mp3",coverPath:"images/4image.jpg"},
+    {songName:"Taki-Taki",filePath:"songs/5.mp3",coverPath:"images/5image.jpg"},
+    {songName:"Blinding Lights",filePath:"songs/6.mp3",coverPath:"images/6image.jpg"},
+    {songName:"Levitating",filePath:"songs/7.mp3",coverPath:"images/7image.jpg"},
 ]
 
 

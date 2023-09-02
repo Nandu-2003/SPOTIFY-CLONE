@@ -1,125 +1,164 @@
+/* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Global Styles */
 body {
-      background-color: antiquewhite;
+    background-color: antiquewhite;
+    font-size: 16px; /* Default font size for medium screens */
 }
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-nav{
-font-family: 'Ubuntu', sans-serif;
+/* Navigation Styles */
+nav {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav ul {
-    display:flex;          /*horizontal display*/  
-    align-items:center;               
-    list-style-type :none;
-    height:65px;
-    background-color:black;
-    color :white;
-
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
 }
-nav ul li{
+
+nav ul li {
     padding: 0 12px;
 }
-.brand img{
-    width: 44px;
-    padding: 0  8px;
 
+.brand img {
+    width: 44px;
+    padding: 0 8px;
 }
-.brand{
-    display:flex;
-    align-items:center;
-    font-weight:bolder;
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
     font-size: 1.3rem;
 }
+
+/* Container Styles */
 .container {
-    min-height: 65vh;    /*it means 70  percent of height*/ 
+    min-height: 65vh;
     background-color: black;
     color: white;
     font-family: 'Varela Round, sans-serif';
     display: flex;
     margin: 23px auto;
-    width:70%;
-    border-radius:12px;
-    padding:34px;
-    background-image: url(bg3.jpg);
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(images/bg3.jpg);
     background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+    background-attachment: fixed;
+    background-position: center;
 }
-.bottom{
-    position:sticky;
-    height:120px;
-    background-color: black;
-    color:white;
-    bottom:0;
-    display:flex;
-    justify-content: center ;
-    align-items: center ;
-    flex-direction:column;
 
+/* Bottom Section Styles */
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.icons{
-    margin-top:14px;
+
+.icons {
+    margin-top: 14px;
 }
-.icons i{
- cursor:pointer;
-}
-#myProgressBar{  
-    /* Selects the element with id="myProgressBar" */
-    width:80vw;
-    text-align:center;
+
+.icons i {
     cursor: pointer;
 }
-.songItemContainer{
-    margin-top:60px;
 
-}
-.songItem{
-       height:50px;
-       display:flex;
-       background-color:white;
-       width:80%;
-       color:black;
-       margin:12px 0;
-      justify-content: space-between;
-       align-items:center;
-       border-radius: 34px;
-
+#myProgressBar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
 }
 
-.songItem img{
-width:43px;
-margin:0 23px 0;
-border-radius:45px;
-
+/* Song List Styles */
+.songItemContainer {
+    margin-top: 60px;
 }
-.timestamp{
-    margin:0 23px;
 
-}
-.timestamp i{
- cursor:pointer;         ;
-} 
- .songinfo{
-    position:absolute;
-    left:9.5vw;
-    text-align:center;
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
     align-items: center;
-    display:flex;
-    font-family: 'Varela Round, sans-serif';
-    
-} 
-.text{
-    margin-left:10px;
-    
+    border-radius: 34px;
 }
- .songinfo{
-    opacity:1;
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 45px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+/* Song Info Styles */
+.songinfo {
+    position: absolute;
+    left: 9.5vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Varela Round, sans-serif';
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.songinfo {
+    opacity: 1;
     transition: opacity 0.4s ease-in;
- }
+}
+
+/* Responsive Styles for Small Screens (e.g., Smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* Responsive Styles for Medium Screens (e.g., Tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Styles for Large Screens (e.g., Desktops) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
